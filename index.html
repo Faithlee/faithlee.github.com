@@ -107,7 +107,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://faithlee.com/2015/10/14/hexo-my-blog/" data-id="cifwiytvp000e75zioza76260" class="article-share-link">Share</a>
+      <a data-url="http://faithlee.com/2015/10/14/hexo-my-blog/" data-id="cifwod779000ehvzi2i3eamy7" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
@@ -157,16 +157,15 @@
 <li>I/O模型</li>
 </ul>
 </blockquote>
-<h3 id="1-进程与线程">1.进程与线程</h3><h5 id="进程：程序的一次执行">进程：程序的一次执行</h5><p>&emsp;&emsp;进程是由内核调度的（担当分配系统资源的实体）；<br>&emsp;&emsp;进程都有自己独立的内存地址和生命周期；(由父进程创建，继承父进程的上下文信息，和父进程通信，但不依赖)<br>&emsp;&emsp;多进程的优势：cpu时间轮流使用，cpu计算与I/O操作重叠使用；稳定性和健壮性优于线程；不足则增加系统性能的开销<br>&emsp;&emsp;进程的创建：使用fork()命令，轻量级的进程使用clone()</p>
-<h5 id="线程：CPU的基本调度单位">线程：CPU的基本调度单位</h5><p>&emsp;&emsp;用户态线程：<br>&emsp;&emsp;&emsp;用户通过库函数模拟实现的多执行流；<br>&emsp;&emsp;&emsp;在多核处理器中表现较差；<br>&emsp;&emsp;&emsp;线程切换性能开销比进程的小；<br>&emsp;&emsp;内核态线程：<br>&emsp;&emsp;&emsp;通过clone()创建，原理是与轻量级进程一对一关联，实际上是一个轻量级进程；<br>&emsp;&emsp;&emsp;线程完全由内核进程调度器管理；</p>
-<h5 id="进程调度器：决定下一个运行的进程">进程调度器：决定下一个运行的进程</h5><p>&emsp;&emsp;进程调度器维护着各种状态的进程队列，包括运行状态、僵尸状态、休眠状态；<br>&emsp;&emsp;<strong>进程优先级</strong>：每个进程告诉调度器各自的任务紧急程度<br>优先级可以由自己决定，也可能通过进程调度器动态调整优先级；<br>通过top命令查看PR、NI属性:</p>
-<p>&emsp;&emsp;PR：优先级，表示时间片长度，与CPU的主频及操作系统有关，linux差不多是10ms；<br>&emsp;&emsp;NI：动态调整值，在计算所有进程nice的值时，需要锁住进程表，多处理器的服务器受影响较大；</p>
-<h5 id="系统负载：">系统负载：</h5><h5 id="进程切换：">进程切换：</h5><h5 id="对进程与线程详细解释可参考阮一峰老师的博文及评论：进程与线程的一个简单解释">对进程与线程详细解释可参考阮一峰老师的博文及评论：<a href="http://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html" target="_blank" rel="external">进程与线程的一个简单解释</a></h5><h3 id="2-系统调用">2.系统调用</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;&gt;<span class="keyword">this</span> code&lt;<span class="regexp">/p&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="3-内存分配">3.内存分配</h3><h3 id="4-持久连接">4.持久连接</h3><h3 id="5-I/O模型">5.I/O模型</h3>
+        
+          <p class="article-more-link">
+            <a href="/2015/10/11/webserver/#more">Read More...</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://faithlee.com/2015/10/11/webserver/" data-id="cifwiytvi000575zi525zfpyb" class="article-share-link">Share</a>
+      <a data-url="http://faithlee.com/2015/10/11/webserver/" data-id="cifwod7740005hvziiua1d1c8" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/内存/">内存</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/线程/">线程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/进程/">进程</a></li></ul>
@@ -221,7 +220,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://faithlee.com/2015/04/26/MyWorld/" data-id="cifwiyttw000075zit33cstvm" class="article-share-link">Share</a>
+      <a data-url="http://faithlee.com/2015/04/26/MyWorld/" data-id="cifwod75r0000hvzigexmzq47" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown在线编辑/">Markdown在线编辑</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown语法/">Markdown语法</a></li></ul>
@@ -269,7 +268,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://faithlee.com/2015/04/26/hello-world/" data-id="cifwiytvs000l75zim1tsqxj6" class="article-share-link">Share</a>
+      <a data-url="http://faithlee.com/2015/04/26/hello-world/" data-id="cifwod77d000lhvzi6cmmjyce" class="article-share-link">Share</a>
       
       
     </footer>
